@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background: #1a1f36; /* dark nav */
+  background: #1a1f36;
   color: #fff;
   padding: 1rem 2rem;
   position: sticky;
@@ -35,14 +35,14 @@ nav a {
 }
 
 .hero h1 {
-  font-size: 7rem;      /* bumped size */
+  font-size: 6rem;      /* reduced from 7rem */
   margin-bottom: 0.5rem;
-  color: #4D0000;       /* maroon */
+  color: #4D0000;
 }
 
 .hero p {
   font-size: 1.2rem;
-  color: #1a1f36;       /* blue accent */
+  color: #1a1f36;
 }
 
 .section {
@@ -53,16 +53,19 @@ nav a {
 
 .section h2 {
   margin-bottom: 1rem;
-  color: #4D0000;       /* maroon */
+  color: #4D0000;
 }
 
-.section p {
-  margin-bottom: 1rem;
+/* Style the service list */
+#services ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
 }
 
-/* Service headers in navy */
-#services p strong {
-  color: #1a1f36;
+#services li {
+  margin-bottom: 0.5rem;
+  font-weight: 700;     /* makes items bold */
+  color: #1a1f36;       /* navy */
 }
 
 footer {
@@ -76,7 +79,4 @@ footer {
 footer a {
   color: #bbb;
   text-decoration: none;
-}
-#services p {
-  color: #1a1f36;   /* navy for all list items under “Our Services” */
 }
