@@ -22,7 +22,7 @@ nav a {
   padding: 4rem 2rem;
 }
 .hero h1 {
-  font-size: 5.5rem;    /* bumped size from 2.5rem */
+  font-size: 7rem;    /* bumped size from 2.5rem */
   margin-bottom: 0.5rem;
   color: #4D0000;       /* updated maroon */
 }
@@ -44,7 +44,7 @@ nav a {
   margin-bottom: 1rem;
 }
 .section p strong {
-  color: #4D0000;       /* updated maroon */
+  color: #1a1f36;       /* updated maroon */
 }
 
 footer {
