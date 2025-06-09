@@ -22,13 +22,13 @@ nav a {
   padding: 4rem 2rem;
 }
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;    /* bumped size from 2.5rem */
   margin-bottom: 0.5rem;
-  color: #800000;      /* maroon for main heading */
+  color: #4D0000;       /* updated maroon */
 }
 .hero p {
   font-size: 1.2rem;
-  color: #1a1f36;      /* blue for sub-tagline */
+  color: #1a1f36;      /* blue accent */
 }
 
 .section {
@@ -38,13 +38,13 @@ nav a {
 }
 .section h2 {
   margin-bottom: 1rem;
-  color: #800000;      /* maroon for section headings */
+  color: #4D0000;       /* updated maroon */
 }
 .section p {
   margin-bottom: 1rem;
 }
 .section p strong {
-  color: #800000;      /* maroon for any <strong> text */
+  color: #4D0000;       /* updated maroon */
 }
 
 footer {
