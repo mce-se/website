@@ -45,6 +45,11 @@ nav a {
   color: #1a1f36;
 }
 
+.hero-subtitle {
+  font-size: 2rem;
+  color: #1a1f36;
+}
+
 .section {
   padding: 3rem 2rem;
   max-width: 800px;
