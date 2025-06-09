@@ -77,3 +77,6 @@ footer a {
   color: #bbb;
   text-decoration: none;
 }
+#services p {
+  color: #1a1f36;   /* navy for all list items under “Our Services” */
+}
